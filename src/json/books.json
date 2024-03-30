@@ -5,17 +5,17 @@
             {
                 "title":"Fashionopolis",
                 "author":"Dana Thomas",
-                "img":"../img/books/fashinopolis.png"
+                "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/fashinopolis.png?raw=true"
             },
             {
                 "title":"Chanel",
                 "author":"Patrick Mauriès",
-                "img":"../img/books/chanel.png"
+                "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/chanel.png?raw=true"
             },
             {
                 "title":"Calligraphy",
                 "author":"June & Lucy",
-                "img":"../img/books/calligraphy.png"
+                "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/calligraphy.png?raw=true"
             }
         ]
     },
@@ -25,19 +25,19 @@
             {
                 "title":"Yves Saint Laurent",
                 "author":"Suzy Menkes ",
-                "img":"../img/books/ysl.png",
+                "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/ysl.png?raw=true",
                 "star":"4"
             },
             {
                 "title":"The Book of Signs",
                 "author":"Rudolf Koch ",
-                "img":"../img/books/tbos.png",
+                "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/tbos.png?raw=true",
                 "star":"3"
             },
             {
                 "title":"Stitched Up",
                 "author":"Tansy E. Hoskins",
-                "img":"../img/books/stitchedup.png",
+                "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/stitchedup.png?raw=true",
                 "star":"3"
             }
         ]

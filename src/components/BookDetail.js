@@ -6,7 +6,8 @@ const BookDetail=({book})=>{
     const {navigate} =useNavigation();
     const {img,author,title}=book;
     return(
-        <Box>             
+        <Box>       
+            <Image source={{uri:img}} alt={title}/>      
             <Pressable onPress={()=>navigate('Detail',book)}>
             <Text>{title}</Text>
             </Pressable>
