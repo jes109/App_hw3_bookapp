@@ -26,7 +26,8 @@
                 "title":"Yves Saint Laurent",
                 "author":"Suzy Menkes ",
                 "img":"https://github.com/jes109/App_hw3_bookapp/blob/master/img/books/ysl.png?raw=true",
-                "star":"4"
+                "star":"4",
+                "destination":"true"
             },
             {
                 "title":"The Book of Signs",
