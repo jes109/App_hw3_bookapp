@@ -3,8 +3,8 @@ import { useTheme } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import HomeStack from "../Navigation/HomeStack"
-import WishistScreen from "../Screens/WishistScreen"
-import MyBooksScreen from "../Screens/MyBooksScreen"
+import Wishist from "./WishList"
+import MyBook from "./Mybook"
 import MaterialCommunityIcons from"react-native-vector-icons/MaterialCommunityIcons"
 
 const BottomTab=createBottomTabNavigator();
@@ -26,13 +26,13 @@ const BottomTabNavigator =()=>{
                     <MaterialCommunityIcons name="home" color={color} size={24}/>
                 )
             }}/>
-            <BottomTab.Screen name="Wishlist" component={WishistScreen} 
+            <BottomTab.Screen name="Wishlist" component={Wishist} 
             options={{
                 tabBarIcon:({color})=>(
                     <MaterialCommunityIcons name="bookmark"  color={color} size={24}/>
                 )
             }}/>
-            <BottomTab.Screen name="My Books" component={MyBooksScreen}
+            <BottomTab.Screen name="My Books" component={MyBook}
             options={{
                 tabBarIcon:({color})=>(
                     <MaterialCommunityIcons name="book-open"  color={color} size={24}/>

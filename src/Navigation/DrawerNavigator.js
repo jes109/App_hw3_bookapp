@@ -4,8 +4,8 @@ import MaterialCommunityIcons from"react-native-vector-icons/MaterialCommunityIc
 
 import BottomTabNavigator from "./BottomTabNavigator" 
 
-import Setting from "../Screens/Setting"
-import Account from "../Screens/Account"
+import Setting from "./Setting"
+import Account from "./Account"
 import CustomDrawer from "../components/CustomDrawer";
 
 const Drawer =createDrawerNavigator();
@@ -16,8 +16,6 @@ const DrawerNavigator = ({navigation}) => {
         drawerContent={props=><CustomDrawer {...props}/>}
         screenOptions={{
             headerShown:false,
-            headerLeft:()=>(<MaterialCommunityIcons name="menu" size={24} onPress={() => navigation.openDrawer()}/>),
-            headerRight:()=>(<MaterialCommunityIcons name="magnify" size={24}/>),
             drawerActiveBackgroundColor:"#e1e3f7",
             drawerActiveTintColor:"#6200EE",
             drawerStyle:{ width:300},
@@ -27,7 +25,6 @@ const DrawerNavigator = ({navigation}) => {
         >
             <Drawer.Screen name="Home" component={BottomTabNavigator}
             options={{
-                tilte:"e",
                 drawerIcon:({color})=>(
                     <MaterialCommunityIcons name="home"size={24} color={color} />
                 )
